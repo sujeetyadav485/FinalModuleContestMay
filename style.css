@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+/* body section */
+
+body{
+    margin: 2rem;
+    background: linear-gradient( to right bottom , #89afb5, #cac4d8 );
+}
+
+.second{
+    display: none;
+}
+
+.search{
+    position: relative;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+#search{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 0 0 2rem;
+}
+/*Input box section*/
+input::placeholder{
+    font-weight: 500;
+    color: rgb(224, 209, 209);
+}
+
+.search-icon{
+    position: absolute;
+    top: 15%;
+}
+
+.postal-data{
+    border: 2px solid rgb(60, 43, 43);
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+.item{
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.Map{
+    width: 100%;
+    height: 300px;
+    margin-top: 1.5rem;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+  background-color: black;
+  color: white;
+  padding: 0.6rem 2.5rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.up,.down{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  height: 20px;
+}
+
+.up p,.down p{
+  font-weight: bold;
+  width: 3000px;
+}
+
+
+.details p{
+    font-weight: bold;
+}
+footer {
+  background-color: #1b454b;
+  padding: 5px;
+  text-align: center;
+  color:#fff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
